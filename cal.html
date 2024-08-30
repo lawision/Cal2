@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Style Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    
+        <input id="result">
+        
+        <div class="buttons">
+            <button onclick="clearEve()" class="button">C</button>
+            <button onclick="del()" class="button">DEL</button>
+            <button onclick="displaynums('%')" class="button">%</button>
+            <button onclick="displaynums('/')" class="button operator">÷</button>
+            <button onclick="displaynums('7')" class="button">7</button>
+            <button onclick="displaynums('8')" class="button">8</button>
+            <button onclick="displaynums('9')" class="button">9</button>
+            <button onclick="displaynums('*')" class="button operator">*</button>
+            <button onclick="displaynums('4')" class="button">4</button>
+            <button onclick="displaynums('5')" class="button">5</button>
+            <button onclick="displaynums('6')" class="button">6</button>
+            <button onclick="displaynums('-')" class="button operator">-</button>
+            <button onclick="displaynums('1')" class="button">1</button>
+            <button onclick="displaynums('2')" class="button">2</button>
+            <button onclick="displaynums('3')" class="button">3</button>
+            <button onclick="displaynums('+')" class="button operator">+</button>
+            <button onclick="displaynums('0')" class="button zero">0</button>
+            <button onclick="displaynums('.')" class="button">.</button>
+            <button onclick="calculate()"class="button operator">=</button>
+
+        </div>
+    </div>
+    <script src="calfu.js"></script>
+</body>
+</html>
